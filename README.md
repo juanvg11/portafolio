@@ -19,7 +19,7 @@ La web está desarrollada con **Angular 19** y utiliza **Tailwind CSS** junto co
 ## 🚀 Cómo ejecutar el proyecto
 1. Clonar este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/portafolio.git
+   git clone https://github.com/juanvg11/portafolio.git
 
 2. Entrar en el directorio del proyecto:
    ```bash
