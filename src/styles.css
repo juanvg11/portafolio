@@ -4,4 +4,19 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+.container {
+  max-width: 1200px;   /* límite en pantallas grandes */
+  margin: 0 auto;      /* centra el contenido */
+  padding: 0 1rem;     /* deja un poco de margen en móviles */
+  width: 100%;         /* ocupa todo el ancho disponible hasta 1200px */
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* reparte logo y botón */
+  align-items: center;
+  height: 80px; /* opcional, para dar altura fija */
 }
