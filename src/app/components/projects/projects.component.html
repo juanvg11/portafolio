@@ -52,13 +52,14 @@ El sistema ha sido desarrollado con FlutterFlow, garantizando un diseño multipl
   <figure (click)="openModal('modal3')" class="cursor-pointer">
     <img
       src="P03.png"
-      alt="Proyecto 3" />
+      alt="Proyecto 3"
+       />
   </figure>
   <div class="card-body">
-    <h2 class="card-title">Proyecto 3</h2>
-    <p>Descripcion del tercer proyecto</p>
+    <h2 class="card-title  text-yellow-400">Citas<h2 class="text-blue-600">Médicas</h2></h2>
+    <p class="line-clamp-4">Backend de Citas Médicas (Spring Boot) API REST para gestionar citas, pacientes y médicos, con operaciones CRUD completas. Desarrollado con Spring Boot, permite integrarse fácilmente con un frontend y maneja la persistencia de datos de forma modular y clara.</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary" (click)="openModal('modal3')">Ver más</button>
+      <button class="btn btn-primary" (click)="openModal('modal1')">Ver más</button>
     </div>
   </div>
 </div>
@@ -117,6 +118,12 @@ El sistema ha sido desarrollado con FlutterFlow, garantizando un diseño multipl
       <a href="https://nestjs.com/" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
         ⚙️ NestJS
       </a>
+     <a href="https://spring.io/projects/spring-boot" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
+  🌱 Spring Boot
+</a>
+      <a href="https://www.postgresql.org/" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
+        🐘 PostgreSQL
+      </a>
       <a href="https://www.mongodb.com/" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
         🍃 MongoDB
       </a>
@@ -132,6 +139,17 @@ El sistema ha sido desarrollado con FlutterFlow, garantizando un diseño multipl
       <a href="https://www.npmjs.com/package/bcrypt" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
         🔒 Bcrypt
       </a>
+      <a href="https://firebase.google.com/" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
+        🔥 Firebase
+      </a>
+      <a href="https://dbeaver.io/" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
+  🖥️ DBeaver
+</a>
+
+
+
+
+
     </div>
   </div>
 </div>
@@ -189,17 +207,12 @@ El sistema ha sido desarrollado con FlutterFlow, garantizando un diseño multipl
  <figure (click)="closeModal()">
 <div *ngIf="modalOpen === 'modal3'" class="fixed inset-0 bg-black/85 flex justify-center items-center z-50">
   <div class="bg-white p-6 rounded-lg w-11/12 max-w-5xl overflow-y-auto relative flex flex-col">
-    <h2 class="text-2xl font-bold mb-4">Proyecto 3</h2>
-    <p class="mb-4">El proyecto consiste en el desarrollo de una solución tecnológica destinada a la gestión integral de pedidos a domicilio en el sector de la restauración. </p>
-    <div class="flex overflow-x-auto overflow-y-hidden gap-12 mb-4">
-      <img src="TFGPanel1.jpeg" alt="Imagen 2" class="h-96 rounded mb-10 shadow-lg">
-      <img src="TFGPanel2.jpeg" alt="Imagen 2" class="h-96 rounded mb-10 shadow-lg">
-      <img src="TFGPanel3.jpeg" alt="Imagen 2" class="h-96 rounded mb-10 shadow-lg">
-      <img src="TFGDelivery1.jpeg" alt="Imagen 1" class="h-96 rounded mb-10 shadow-lg">
-      <img src="TFGDelivery2.jpeg" alt="Imagen 2" class="h-96 rounded mb-10 shadow-lg">
-      <img src="TFGDelivery3.jpeg" alt="Imagen 2" class="h-96 rounded mb-10 shadow-lg">
-
-    </div>
+    <h2 class="text-2xl font-bold mb-4">Citas Médicas</h2>
+    <p class="mb-4">Backend de Citas Médicas (Spring Boot)
+API REST para gestionar citas, pacientes y médicos, con operaciones CRUD completas. Desarrollado con Spring Boot, permite integrarse fácilmente con un frontend y maneja la persistencia de datos de forma modular y clara.</p>
+<a href="https://github.com/juanvg11/prueba" target="_blank" class="flex items-center px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm hover:bg-green-200 transition">
+        🐙 Enlace a Github
+      </a>
     <button class="btn btn-primary absolute top-2 right-2 text-gray-500 hover:text-gray-800" (click)="closeModal()">❌</button>
   </div>
 </div>
